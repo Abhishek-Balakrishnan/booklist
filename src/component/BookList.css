@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: 12px;
+
+}
+
+.Booklist{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    background-color: rgb(172, 207, 76);
+    margin-left: -36px;
+}
+.row1{
+    text-align: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 50px; */
+
+}
+.search input{
+    outline:0;
+    border:1px solid rgb(248, 8, 8);
+    width: 350px;
+    height: 65px;
+    /* padding: 0 1rem; */
+    margin-top: 10px;
+}
+.search button{
+    outline: none;
+    height: 35px;
+}
+button{
+    background-color: black;
+    color: white;
+}
+.bookk{
+    background-color: black;
+}
